@@ -31,14 +31,14 @@ def get_chart_data(request):
                 'datasets': [
                     {
                         'label': 'Dealer 1 with Analytics',
-                        'data': [20, 24, 32, 32, 38, 42, 43, 44, 48, 52],
+                        'data': [20, 24, 32, 32, 38, 42, 43, 44, 46, 45],
                         'borderColor': 'green',
                         'backgroundColor': 'green',
                         'fill': False
                     },
                     {
                         'label': 'Dealer 1 with No Anaylitcs ',
-                        'data': [12, 13, 17, 19, 21, 21, 21, 21, 17, 23],
+                        'data': [12, 13, 17, 19, 21, 21, 21, 21, 17, 3],
                         'borderColor': 'red',
                         'backgroundColor': 'red',
                         'fill': False
@@ -56,7 +56,7 @@ def get_chart_data(request):
                 'labels': [str(i) + 'k' for i in range(1, 10)],
                 'datasets': [{
                     'label': 'Dealer 2 with No Anaylitcs',
-                    'data': [12, 13, 17, 19, 21, 21, 21, 21, 17, 23],
+                    'data': [12, 13, 17, 14, 21, 21, 21, 21, 17, 23],
                     'borderColor': 'red',
                     'backgroundColor': 'red',
                     'fill': False
@@ -67,14 +67,14 @@ def get_chart_data(request):
                 'labels': [str(i) + 'k' for i in range(1, 10)],
                 'datasets': [{
                     'label': 'Dealer 2 with Analytics',
-                    'data': [20, 21, 25, 30, 36, 37, 40, 42, 47, 59],
+                    'data': [23, 21, 25, 30, 36, 37, 40, 42, 45, 43],
                     'borderColor': 'green',
                     'backgroundColor': 'green',
                     'fill': False
                 },
                 {
                     'label': 'Dealer 2 with No Anaylitcs',
-                    'data': [12, 12, 15, 22, 22, 24, 24, 24, 25, 26],
+                    'data': [12, 13, 17, 14, 21, 21, 21, 21, 17, 23],
                     'borderColor': 'red',
                     'backgroundColor': 'red',
                     'fill': False
