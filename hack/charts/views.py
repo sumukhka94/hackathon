@@ -18,7 +18,7 @@ def get_chart_data(request):
             data = {
                 'labels': [str(i) + 'k' for i in range(1, 10)],
                 'datasets': [{
-                    'label': 'Dealer 1 with No Anaylitcs ',
+                    'label': 'Dealer 1 with Conventional ',
                     'data': [12, 13, 17, 19, 21, 21, 21, 21, 17, 23],
                     'borderColor': 'red',
                     'backgroundColor': 'red',
@@ -37,7 +37,7 @@ def get_chart_data(request):
                         'fill': False
                     },
                     {
-                        'label': 'Dealer 1 with No Anaylitcs ',
+                        'label': 'Dealer 1 with Conventional ',
                         'data': [12, 13, 17, 19, 21, 21, 21, 21, 17, 3],
                         'borderColor': 'red',
                         'backgroundColor': 'red',
@@ -55,7 +55,7 @@ def get_chart_data(request):
             data = {
                 'labels': [str(i) + 'k' for i in range(1, 10)],
                 'datasets': [{
-                    'label': 'Dealer 2 with No Anaylitcs',
+                    'label': 'Dealer 2 with Conventional',
                     'data': [12, 13, 17, 14, 21, 21, 21, 21, 17, 23],
                     'borderColor': 'red',
                     'backgroundColor': 'red',
@@ -73,7 +73,7 @@ def get_chart_data(request):
                     'fill': False
                 },
                 {
-                    'label': 'Dealer 2 with No Anaylitcs',
+                    'label': 'Dealer 2 with Conventional',
                     'data': [12, 13, 17, 14, 21, 21, 21, 21, 17, 23],
                     'borderColor': 'red',
                     'backgroundColor': 'red',
